@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AppViewX Home</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/main-style.css">
+	<script src="../lib/jquery-3.3.1.min.js"></script>
+	<script src="../lib/bootstrap.min.js"></script>
+	<script src="../lib/jquery.twbsPagination.min.js"></script>
+	<script src="../lib/jquery.timeago.js"></script>
+	<script src="../js/home.js"></script>
+    <script type="text/javascript">        	
+    </script>
+</head>
+<body>
+    <div id="homecard" class="card">
+		<h5 class="card-header">
+		<a  aria-expanded="true" aria-controls="collapse-example" class="d-block">
+				<i class="fa fa-ellipsis-v pull-right"></i>
+				Application view::app123
+		<div class="search-container pull-right">
+			  <span class="label label-info">15 mins ago</span>
+			  <i class="fa fa-refresh" style="font-size:24px;"></i>
+			  <input id="searchInput" type="text" placeholder="Search.." name="search">
+			  <button><i class="fa fa-search"></i></button>			
+		</div>
+		</a>
+		</h5>
+			<br/><br/>
+			<div class="card">
+				<div id="collapse-example" class="collapse show" aria-labelledby="heading-example">
+					<div class="card-body">
+						<div id="object-tree">
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div>
+	<br/>
+	<nav aria-label="Page navigation example">
+	  <ul id="paginationUl" class="pagination pull-right">		
+	  </ul>
+	</nav>
+	</div>
+</body>
+</html>
